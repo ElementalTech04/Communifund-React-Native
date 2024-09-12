@@ -17,9 +17,9 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
+          title: 'Community',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color} />
+            <TabBarIcon name={focused ? 'globe' : 'globe-outline'} color={color} />
           ),
         }}
       />
@@ -28,7 +28,7 @@ export default function TabLayout() {
         options={{
           title: 'Save',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+            <TabBarIcon name={focused ? 'trending-up' : 'trending-up-outline'} color={color} />
           ),
         }}
       />
@@ -37,7 +37,7 @@ export default function TabLayout() {
             options={{
                 title: 'Tools',
                 tabBarIcon: ({ color, focused }) => (
-                    <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+                    <TabBarIcon name={focused ? 'git-compare' : 'git-compare-outline'} color={color} />
                 ),
             }}
         />
@@ -46,7 +46,7 @@ export default function TabLayout() {
             options={{
                 title: 'Account',
                 tabBarIcon: ({ color, focused }) => (
-                    <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+                    <TabBarIcon name={focused ? 'person' : 'person-outline'} color={color} />
                 ),
             }}
         />
